@@ -38,7 +38,7 @@ export default function Home({ product }: HomeProps) {
       </main>
     </>
   )
-}
+} 
 
 export const getStaticProps: GetStaticProps = async () => {
 
