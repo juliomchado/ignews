@@ -66,7 +66,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
     }
 }
 
-
 export const getStaticProps: GetStaticProps = async ({ params }) => {
 
     const { slug } = params;

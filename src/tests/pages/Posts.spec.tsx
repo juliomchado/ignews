@@ -39,7 +39,7 @@ describe('Posts page', () => {
             })
         } as any);
 
-        const response = await getStaticProps({});
+        const response = await getStaticProps({} as any);
     
 
         expect(response).toEqual(
@@ -53,8 +53,8 @@ describe('Posts page', () => {
                     }]
                 }
             })
-        );
+        )
 
-    });
+    })
 
-});
+})
